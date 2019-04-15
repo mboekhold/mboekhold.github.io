@@ -38,15 +38,12 @@ export default {
     document.title = "Miguel Boekhold | Software Developer"
   },
   data() {
-    return { activeItem: "projects"}
 },
 methods: {
-  isActive(menuItem) {
-    return this.activeItem == menuItem;
-  },
-  setActive(menuItem) {
-    this.activeItem = menuItem;
-    } 
+    track(){
+        this.$ga.page('/')
+    }
+
   }
 }
 

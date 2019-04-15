@@ -69,6 +69,9 @@ export default {
         }
 
         e.preventDefault();
+      },
+      track(){
+          this.$ga.page('/contact')
       }
   }
 }
