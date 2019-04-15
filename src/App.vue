@@ -91,7 +91,7 @@ a { text-decoration: none; color: black; outline: none;}
 }
 
 h1{
-    font-size: 1.2em !important;
+    font-size: 1.2em;
     text-transform: uppercase;
 }
 
@@ -161,5 +161,62 @@ h1{
     display: block;
     height: 0;
     visibility: hidden;
+}
+/* Layouts small than 600px, mainly mobile */
+@media only screen and (max-width: 480px ), screen and(max-device-width: 480px), screen and (max-width: 600px ){
+    html {
+      -webkit-text-size-adjust: none;
+  }
+
+  .socials {
+      display:none;
+  }
+  .header {
+    padding: 10px 0 20px 0;
+    margin: 0 0 30px 0;
+    border-bottom: 1px solid #000;
+    font-size:1.3em;
+    line-height: .7em;
+}
+
+  .header h1 { font-size: .8em;}
+  h2 { font-size: .7em;}
+  h3 { font-size: .7.0em;}
+  h4 { font-size: .9em;}
+  h5 { font-size: .8em;}
+
+  .left-container {
+      text-align: center;
+      width: 99%;
+      padding-bottom: 15px;
+      margin: 0 auto;
+      position: relative;
+  }
+
+  .main {
+      width: 94%;
+      margin: 0 auto 30px auto;
+      padding: 0;
+      float: none;
+  }
+
+  .nav {
+      position: relative;
+    margin-top: 0;
+    top:0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+  }
+
+  .nav li {
+      font-size: 1em;
+    margin: 0 0 0 0;
+    display: inline-block;
+    padding: 0 5px 0 5px;
+  }
+    
 }
 </style>

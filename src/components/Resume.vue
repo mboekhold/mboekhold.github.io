@@ -64,4 +64,12 @@ export default {
   font-size:1.3em;
   line-height: .7em;
 }
+@media only screen and (max-width: 480px ), screen and(max-device-width: 480px), screen and (max-width: 600px ){
+    html {
+      -webkit-text-size-adjust: none;
+  }
+.education-header{
+      font-size: 1em;
+  }
+}
 </style>
