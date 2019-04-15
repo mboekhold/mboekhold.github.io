@@ -31,9 +31,6 @@ export default {
     },
     remove(id){
       this.projects.splice(id, 1);
-    },
-    track(){
-      this.$ga.page('/projects')
     }
   }
 }

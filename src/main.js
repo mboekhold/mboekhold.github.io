@@ -9,7 +9,7 @@ Vue.use(VueAnalytics, {
   id: 'UA-138368011-1',
   router
 });
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
   router,
