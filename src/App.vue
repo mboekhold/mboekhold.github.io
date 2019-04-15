@@ -13,8 +13,8 @@
                   <ul class="menu-items">
                     <router-link tag="li" active-class="active" to="/" exact><a>Projects</a></router-link>
                     <router-link tag="li" active-class="active" to="/resume"><a>Resume</a></router-link>
-                    <router-link tag="li" active-class="active" to="#"><a>Contact</a></router-link>
                     <router-link tag="li" active-class="active" to="/about"><a>About</a></router-link>
+                    <router-link tag="li" active-class="active" to="/contact"><a>Contact</a></router-link>
                   </ul>
               </div>           
           </div>

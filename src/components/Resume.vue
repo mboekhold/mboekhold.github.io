@@ -34,8 +34,8 @@ export default {
         {"title" : "Intern", "data" : "HEMA, Oct 2015 - Apr 2016 ", "description" :" " }
       ],
       education: [
-        {"institution" : "Fonty's Hogeschool ICT", "degreeInfo" : "Bachelor's degree, Software Engineering", "year":"2018 - 2021"},
-        {"institution" : "ROC Midden Nederland", "degreeInfo" : "Associate's degree, Network and System Administrator", "year":"2014 - 2017"},
+        {"institution" : "Fonty's Hogeschool ICT- Eindhoven", "degreeInfo" : "Bachelor's degree, Software Engineering", "year":"2018 - 2021"},
+        {"institution" : "ROC Midden Nederland - Utrecht", "degreeInfo" : "Associate's degree, Network and System Administrator", "year":"2014 - 2017"},
       ]
     }
   }
