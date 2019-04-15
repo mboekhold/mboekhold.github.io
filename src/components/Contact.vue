@@ -52,19 +52,19 @@ export default {
   },
   methods: {
       sendMessage(e){
-        if(this.name && this.email && this.message)
+        if(this.$name && this.$email && this.$message)
         {
             return true;
         }
 
         this.errors = [];
-        if(!this.name){
+        if(!this.$name){
             this.errors.push('Name required.');
         }
-        if(!this.email){
+        if(!this.$email){
             this.errors.push('Email required.');
         }
-        if(!this.message){
+        if(!this.$message){
             this.errors.push('Message required');
         }
 

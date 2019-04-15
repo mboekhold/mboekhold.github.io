@@ -38,6 +38,12 @@ export default {
         {"institution" : "ROC Midden Nederland - Utrecht", "degreeInfo" : "Associate's degree, Network and System Administrator", "year":"2014 - 2017"},
       ]
     }
+  },
+  methods: {
+    track () {
+      this.$ga.page('/resume')
+    }
+
   }
 }
 </script>
