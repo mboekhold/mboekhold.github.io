@@ -22,9 +22,6 @@ export default {
     }
   },
   methods: {
-    track(){
-          this.$ga.page('/about')
-      }
   }
 }
 </script>
