@@ -7,8 +7,12 @@
         <img class="profile-pic" src="https://imgplaceholder.com/200x200" alt="ImgPlaceholder">
       </div>
       <div class="bio">
-        <p></p> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Sit amet consectetur adipiscing elit. Amet volutpat consequat mauris nunc congue nisi vitae suscipit. 
+        Ullamcorper sit amet risus nullam eget felis eget nunc.</p>
       </div>
+      
     </div>
 </template>
 
@@ -38,6 +42,7 @@ export default {
 .bio {
   margin-top: 60px;
   text-align: left;
+  line-height: 1.8;
 }
 
 </style>

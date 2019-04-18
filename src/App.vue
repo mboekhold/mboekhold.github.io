@@ -117,6 +117,9 @@ h1{
     transition: all .2s ease-in;
     border-bottom: 3px solid transparent;
 }
+.nav ul li a:hover{
+    color: #000;
+  }
 
 .nav ul li.active a{
     color: #000;
@@ -209,11 +212,13 @@ h1{
   }
 
   .nav li {
-      font-size: 1em;
+    font-size: 1em;
     margin: 0 0 0 0;
     display: inline-block;
     padding: 0 5px 0 5px;
   }
+
+  
     
 }
 </style>

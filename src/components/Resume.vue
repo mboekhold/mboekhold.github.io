@@ -30,7 +30,7 @@ export default {
   data() {
     return {
       work: [
-        {"title" : "Operations Support", "data" : "Data Center Arnhem, Feb 2017 - Present", "description" :" " },
+        {"title" : "Operations Support", "data" : "Data Center Arnhem, Feb 2017 - Aug 2017", "description" :" " },
         {"title" : "Intern", "data" : "HEMA, Oct 2015 - Apr 2016 ", "description" :" " }
       ],
       education: [

@@ -23,9 +23,9 @@
             <label class="label">Email</label>
             <input type="email" class="input" name="email" v-model="email">
         </div>
-        <div class="field">
+        <div class="field text-field">
             <label class="label">Message</label>
-            <textarea rows = "7" cols = "80" name = "description" v-model="message">
+            <textarea rows = "7" cols = "70" name = "description" v-model="message">
             
             </textarea>
         </div>
@@ -93,6 +93,13 @@ export default {
 .field {
     margin-bottom: 25px;
 }
+
+.text-field textarea{
+    box-sizing: border-box;
+    width: 75%;
+}
+
+
 
 button {
     background-color: black;
