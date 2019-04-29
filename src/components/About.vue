@@ -4,7 +4,7 @@
           <h1>About me</h1>
       </div>
       <div class="profile">
-        <img class="profile-pic" src="https://imgplaceholder.com/200x200" alt="ImgPlaceholder">
+        <img class="profile-pic" src="../assets/IMG_10631.jpg" alt="ImgPlaceholder">
       </div>
       <div class="bio">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -39,6 +39,10 @@ export default {
   border-radius: 50%;
   margin: auto;
 }
+img { 
+  object-fit:cover;
+
+} 
 .bio {
   margin-top: 60px;
   text-align: left;

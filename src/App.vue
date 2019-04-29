@@ -40,9 +40,7 @@ export default {
   data() {
 },
 methods: {
-    track(){
-        this.$ga.page('/')
-    }
+    
 
   }
 }
