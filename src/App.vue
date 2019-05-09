@@ -12,7 +12,7 @@
               <div class="nav-container">
                   <ul class="menu-items">
                     <router-link tag="li" active-class="active" to="/" exact><a>Projects</a></router-link>
-                    <router-link tag="li" active-class="active" to="/resume"><a>Resume</a></router-link>
+                    <router-link tag="li" active-class="active" to="/cv"><a>CV</a></router-link>
                     <router-link tag="li" active-class="active" to="/about"><a>About</a></router-link>
                     <router-link tag="li" active-class="active" to="/contact"><a>Contact</a></router-link>
                   </ul>
@@ -66,9 +66,6 @@ a { text-decoration: none; color: black; outline: none;}
 .container {
     max-width: 62.5em;
     margin: 0 auto;
-    padding: 0;
-    border: 0;
-
 }
 
 
@@ -154,6 +151,9 @@ h1{
     visibility: hidden;
 }
 
+.clearfix::after {
+    clear: both;
+}
 .clearfix::before {
     content: "\0020";
     display: block;
