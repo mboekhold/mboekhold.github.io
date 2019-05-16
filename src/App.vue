@@ -213,7 +213,7 @@ h1{
     font-size: 1em;
     margin: 0 0 0 0;
     display: inline-block;
-    padding: 0 5px 0 5px;
+    padding: 5px;
   }
 
 }
@@ -229,7 +229,7 @@ h1{
     font-size: 1em;
     margin: 0 0 0 0;
     display: inline-block;
-    padding: 0 5px 0 5px;
+    padding: 5px;
   }
 
   .main {
