@@ -161,7 +161,7 @@ h1{
     visibility: hidden;
 }
 /* Layouts small than 600px, mainly mobile */
-@media only screen and (max-width: 480px ), screen and(max-device-width: 480px), screen and (max-width: 600px ){
+@media only screen and (max-width: 600px ){
     html {
       -webkit-text-size-adjust: none;
   }
@@ -199,7 +199,7 @@ h1{
   }
 
   .nav {
-      position: relative;
+    position: relative;
     margin-top: 0;
     top:0;
     right: 0;
@@ -216,7 +216,53 @@ h1{
     padding: 0 5px 0 5px;
   }
 
+}
+@media only screen and (min-width: 602px ) and (max-width: 860px){
+    .nav {
+        position: relative;
+        margin-top: 0;
+        height: auto;
+        margin: 0;
+        display: block;
+    }
+    .nav li {
+    font-size: 1em;
+    margin: 0 0 0 0;
+    display: inline-block;
+    padding: 0 5px 0 5px;
+  }
+
+  .main {
+      width: 94%;
+      margin: 0 auto 30px auto;
+      padding: 0;
+      float: none;
+  }
+  .title {
+      float: left;
+      text-align: left;
+      margin-left: 36px;
+      margin-bottom: 30px;
+  }
+  .left-container {
+      width: 99%;
+      padding-bottom: 15px;
+      margin: 0 auto;
+      position: relative;
+  }
+  .socials {
+      display:none;
+  }
+  .nav-container {
+    right: 20px;
+    position: absolute;
+    top: 50%;
+    height: 20px;
+    margin-top: -35px;
+  }
+}
+
   
     
-}
+
 </style>
