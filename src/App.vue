@@ -22,6 +22,7 @@
                   <a href="mailto:miguel_boekhold@hotmail.com" title="E-mail"><i class="fas fa-envelope fa-lg"></i></a> 
                   <a href="https://github.com/mboekhold" title="Miguel's Github" target="_blank"><i class="fab fa-github fa-lg"></i></a>
                   <a href="https://www.linkedin.com/in/miguelboekhold/" title="Miguel's Linkedin" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                  
           </div>
             </div>
     </div>
@@ -60,6 +61,7 @@ body {
     line-height: 1;
 
 }
+
 
 a { text-decoration: none; color: black; outline: none;}
 
@@ -160,6 +162,8 @@ h1{
     height: 0;
     visibility: hidden;
 }
+
+
 /* Layouts small than 600px, mainly mobile */
 @media only screen and (max-width: 600px ){
     html {
@@ -217,7 +221,7 @@ h1{
   }
 
 }
-@media only screen and (min-width: 602px ) and (max-width: 860px){
+@media only screen and (min-width: 601px ) and (max-width: 860px){
     .nav {
         position: relative;
         margin-top: 0;
