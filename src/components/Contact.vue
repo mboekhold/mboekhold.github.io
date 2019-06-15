@@ -54,11 +54,12 @@ export default {
       sendMessage(e){
         if(this.$name && this.$email && this.$message)
         {
+            console.log(this.$name);
             return true;
         }
 
         this.errors = [];
-        if(!this.$name){
+        if(this.$name != ''){
             this.errors.push('Name required.');
         }
         if(!this.$email){
