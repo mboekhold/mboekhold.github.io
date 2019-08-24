@@ -1,7 +1,8 @@
 <template>
   <div class="main clearfix">
       <div class="header">
-          <h1>Curriculum Vitae</h1>
+          <h1>Resume</h1>
+          <a href="../assets/mboekhold_resume.pdf" target="_blank" download><font-awesome-icon class="dl-icon" icon="file-download" style="color:#000; font-size:27px; position:absolute; right: 25px; top: 40%; :hover: {cursor: pointer;}"/> </a>
       </div>
       <div class="main-content">
       <ul class="job-items">
@@ -30,6 +31,7 @@ export default {
   data() {
     return {
       work: [
+        {"title" : "Data Center Technician", "data" : "ZT Systems, June 2019 - Sep 2019", "description" :" " },
         {"title" : "Operations Support", "data" : "Data Center Arnhem, Feb 2017 - Aug 2017", "description" :" " },
         {"title" : "Intern", "data" : "HEMA, Oct 2015 - Apr 2016 ", "description" :" " }
       ],
@@ -60,7 +62,9 @@ export default {
 .main-content ul li {
   list-style-type: none;
 }
-
+.dl-icon:hover{
+  cursor: pointer;
+}
 .education-header {
   padding: 10px 0 2px 0;
   margin: 40px 0 30px 0;

@@ -9,12 +9,18 @@
     "deploy": "npm run build; push-dir --dir=dist --branch=master --cleanup"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-brands-svg-icons": "^5.10.2",
+    "@fortawesome/free-regular-svg-icons": "^5.10.2",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
     "core-js": "^2.6.5",
     "vee-validate": "^2.2.2",
     "vue": "^2.6.6",
     "vue-analytics": "^5.16.4"
   },
   "devDependencies": {
+    "@vue/babel-preset-app": "^3.11.0",
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-eslint": "^3.5.0",
     "@vue/cli-service": "^3.5.0",

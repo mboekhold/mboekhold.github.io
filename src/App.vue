@@ -12,7 +12,7 @@
               <div class="nav-container">
                   <ul class="menu-items">
                     <router-link tag="li" active-class="active" to="/" exact><a>Projects</a></router-link>
-                    <router-link tag="li" active-class="active" to="/cv"><a>CV</a></router-link>
+                    <router-link tag="li" active-class="active" to="/resume"><a>Resume</a></router-link>
                     <router-link tag="li" active-class="active" to="/about"><a>About</a></router-link>
                     <router-link tag="li" active-class="active" to="/contact"><a>Contact</a></router-link>
                   </ul>
@@ -140,6 +140,7 @@ h1{
     border-bottom: 1px solid #000;
     font-size:1.3em;
     line-height: .7em;
+    position: relative;
 }
 
 

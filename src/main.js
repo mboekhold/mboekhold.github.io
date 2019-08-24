@@ -3,6 +3,13 @@ import App from './App.vue';
 import VeeValidate from 'vee-validate';
 import VueAnalytics from 'vue-analytics';
 import router from './router';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faFileDownload }  from '@fortawesome/free-solid-svg-icons'
+import {FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faFileDownload)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(VeeValidate);
 Vue.use(VueAnalytics, {
