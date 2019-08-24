@@ -6,7 +6,7 @@
       </div>
 
     <div class="box">
-        <form class="contect-form" name="contact" method="post" data-netlify="true">
+        <form class="contect-form" name="contact" method="post" netlify>
         <transition name="list" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
         <p v-if="errors.length">
         <b>Please correct the following error(s):</b>
