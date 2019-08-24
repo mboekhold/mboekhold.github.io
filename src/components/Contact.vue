@@ -99,8 +99,7 @@ button:hover {
     }
 
     .field button {
-        width: 50%;
-        margin-left: 25px;
+        width: 35%;
         margin: auto;
         display: inherit;
         padding: 4px;
