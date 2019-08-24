@@ -6,7 +6,7 @@
       </div>
 
     <div class="box">
-        <form class="contect-form" method="post" data-netlify="true">
+        <form class="contect-form" name="contact" method="post" data-netlify="true">
         <transition name="list" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
         <p v-if="errors.length">
         <b>Please correct the following error(s):</b>
@@ -51,7 +51,7 @@ export default {
     }
   },
   methods: {
-      
+
   }
 }
 </script>
