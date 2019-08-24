@@ -6,7 +6,7 @@
       </div>
 
     <div class="box">
-        <form @submit="sendMessage" class="contect-form" method="post">
+        <form class="contect-form" method="post" data-netlify="true">
         <transition name="list" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
         <p v-if="errors.length">
         <b>Please correct the following error(s):</b>
@@ -30,7 +30,7 @@
             </textarea>
         </div>
         <div class="field has-text-right">
-            <button type="submit" value="submit">Submit</button>
+            <button type="submit">Submit</button>
         </div>
         </form>
     </div>
@@ -51,26 +51,7 @@ export default {
     }
   },
   methods: {
-      sendMessage(e){
-        if(this.$name && this.$email && this.$message)
-        {
-            console.log(this.$name);
-            return true;
-        }
-
-        this.errors = [];
-        if(this.$name != ''){
-            this.errors.push('Name required.');
-        }
-        if(!this.$email){
-            this.errors.push('Email required.');
-        }
-        if(!this.$message){
-            this.errors.push('Message required');
-        }
-
-        e.preventDefault();
-      },
+      
   }
 }
 </script>
