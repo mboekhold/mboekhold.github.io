@@ -180,6 +180,7 @@ h1{
     border-bottom: 1px solid #000;
     font-size:1.3em;
     line-height: .7em;
+    position: static;
 }
 
   .header h1 { font-size: .8em;}
@@ -264,6 +265,9 @@ h1{
     top: 50%;
     height: 20px;
     margin-top: -35px;
+  }
+  .header {
+      position: static;
   }
 }
 

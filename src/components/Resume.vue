@@ -2,7 +2,7 @@
   <div class="main clearfix">
       <div class="header">
           <h1>Resume</h1>
-          <a href="../assets/mboekhold_resume.pdf" target="_blank" download><font-awesome-icon class="dl-icon" icon="file-download" style="color:#000; font-size:27px; position:absolute; right: 25px; top: 40%; :hover: {cursor: pointer;}"/> </a>
+          <a :href="`${publicPath}mboekhold_resume.pdf`" target="_blank" download><font-awesome-icon class="dl-icon" icon="file-download"/> </a>
       </div>
       <div class="main-content">
       <ul class="job-items">
@@ -38,7 +38,8 @@ export default {
       education: [
         {"institution" : "Fonty's Hogeschool ICT- Eindhoven", "degreeInfo" : "Bachelor's degree, Software Engineering", "year":"2018 - 2021"},
         {"institution" : "ROC Midden Nederland - Utrecht", "degreeInfo" : "Associate's degree, Network and System Administrator", "year":"2014 - 2017"},
-      ]
+      ],
+      publicPath: process.env.BASE_URL
     }
   },
   methods: {
@@ -54,6 +55,10 @@ export default {
   margin: 40px 0 0 0;
 }
 
+.header h1 {
+  display: inline-block;
+}
+
 .main-content ul li h4 {
   font-style: italic;
   font-weight: 200;
@@ -61,6 +66,12 @@ export default {
 }
 .main-content ul li {
   list-style-type: none;
+}
+
+.dl-icon {
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  margin-left: 20px;
 }
 .dl-icon:hover{
   cursor: pointer;
