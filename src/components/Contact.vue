@@ -43,10 +43,7 @@ export default {
   name: 'About',
   data() {
     return {
-        errors: [],
-        name: '',
-        email: '',
-        message: ''
+        
       
     }
   },
