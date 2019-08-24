@@ -6,7 +6,7 @@
       </div>
 
     <div class="box">
-        <form class="contect-form" name="contact" method="post" netlify>
+        <form class="contect-form" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
         <transition name="list" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
         <p v-if="errors.length">
         <b>Please correct the following error(s):</b>
@@ -15,6 +15,7 @@
         </ul>
         </p>
         </transition>
+        <input type="hidden" name="form-name" value="ask-question" />
         <div class="field">
             <label class="label">Name</label>
             <input type="text" v-model="name" v-validate="'required'" name="name">
@@ -87,6 +88,26 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+@media only screen and (max-width: 600px ){
+    .field input {
+        width: 95%;
+    }
+
+    .field textarea {
+        width: 100%;
+    }
+
+    .field button {
+        width: 50%;
+        margin-left: 25px;
+        margin: auto;
+        display: inherit;
+        padding: 4px;
+    }
+    .box {
+        margin: auto;
+    }
 }
 
 </style>
