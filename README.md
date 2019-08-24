@@ -1,29 +1,4 @@
-# portfolio
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2ea1eb37-8b3f-4010-a020-d703826f2e35/deploy-status)](https://app.netlify.com/sites/optimistic-swanson-f06926/deploys)
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Personal portfolio
