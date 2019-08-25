@@ -3,6 +3,16 @@
       <div class="header">
           <h1>Projects</h1>
       </div>
+      <div class="cards">
+            <div class="card">
+              
+               Document Your Code
+
+               <div class="card-action">
+                 <a href="github.com"><i class="fab fa-github fa-lg"></i></a>
+                 </div>
+            </div>
+            </div>
     </div>
 
 
@@ -100,5 +110,27 @@ export default {
 i {
   float:right;
   cursor:pointer;
+}
+
+.card {
+  border: 1px solid #dbdbd9;
+  border-radius: 4px;
+  padding: 30px;
+  margin-top: 2rem;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  display: none;
+}
+
+.card-action {
+  text-align: left;
+  border-top: 1px solid rgba(160,160,160,0.2);
+  margin-top: 20px;
+  display: none;
+}
+.card-action a, i{
+  float: none;
+  margin-top: 15px;
 }
 </style>

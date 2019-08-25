@@ -7,13 +7,13 @@
         <img class="profile-pic" src="../assets/about_me.jpeg" alt="ImgPlaceholder">
       </div>
       <div class="bio">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Sit amet consectetur adipiscing elit. Amet volutpat consequat mauris nunc congue nisi vitae suscipit. 
-        Ullamcorper sit amet risus nullam eget felis eget nunc.</p>
+        <p>Hi, I'm Miguel. I began working at the infrastructure level of what makes up most modern solutions for big and small tech companies. I focused
+          on ensuring continuous operability, security and availability of what allows them to serve most of their services. I eventually gained interest of the
+          services that were hosted there and decided to get into Development. It has been endless exploration from that point on. I love programming, reading and kiteboarding
+        </p>
+        <p>For more info, check out my <a href=""><b>videos</b></a>, <a href="https://www.goodreads.com/review/list/62007488-miguel" target="_blank"><b>books</b></a></p>
       </div>
-      
-    </div>
+  </div>
 </template>
 
 

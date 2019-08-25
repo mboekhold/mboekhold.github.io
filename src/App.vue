@@ -26,7 +26,11 @@
           </div>
             </div>
     </div>
+    
     <router-view />
+    <div id="footer">
+                 <p>&copy; 2019 <a href="/"><b>Miguel Boekhold</b></a> All Rights Reserved</p>
+            </div>
     
    
 </div>
@@ -131,7 +135,7 @@ h1{
     width:72%;
     padding: 40px 0 0 0;
     border-bottom: 1px solid #e3e2de;
-    margin: 0 20px 30px 0;
+    margin: 0 20px 10px 0;
 }
 
 .header {
@@ -164,6 +168,13 @@ h1{
     visibility: hidden;
 }
 
+#footer{
+  float: right;
+  clear: both;
+  width: 74%;
+  font-weight: 300;
+  font-size: .9rem;
+}
 
 /* Layouts small than 600px, mainly mobile */
 @media only screen and (max-width: 600px ){
