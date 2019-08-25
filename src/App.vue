@@ -210,7 +210,7 @@ h1{
 
   .main {
       width: 94%;
-      margin: 0 auto 30px auto;
+      margin: 0 auto 10px auto;
       padding: 0;
       float: none;
   }
@@ -232,6 +232,11 @@ h1{
     display: inline-block;
     padding: 5px;
   }
+#footer {
+    float: left;
+    margin-left: 10px;
+    font-size: .8rem;
+}
 
 }
 @media only screen and (min-width: 601px ) and (max-width: 860px){
@@ -251,7 +256,7 @@ h1{
 
   .main {
       width: 94%;
-      margin: 0 auto 30px auto;
+      margin: 0 auto 10px auto;
       padding: 0;
       float: none;
   }
@@ -280,6 +285,10 @@ h1{
   .header {
       position: static;
   }
+  #footer {
+        float: left;
+        margin-left: 20px;
+    }
 }
 
   
