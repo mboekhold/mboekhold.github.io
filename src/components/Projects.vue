@@ -3,30 +3,28 @@
       <div class="header">
           <h1>Projects</h1>
       </div>
-      <div class="cards">
-            <div class="card">
-              
-               Document Your Code
-
-               <div class="card-action">
-                 <a href="github.com"><i class="fab fa-github fa-lg"></i></a>
-                 </div>
-            </div>
-            </div>
+      <div class="projects">
+        <div class="project" v-for="project in projects" :key="project.id">
+          <div class="project-logo"><a v-bind:href="project.link" target="_blank"><img v-bind:src="project.logo"></a></div>
+          <h3>{{project.title}}</h3>
+          <div class="project-link"><a href="https://github.com/Zarad1993/dyc">{{project.link}}</a></div>
+          <div class="project-description clearfix">{{project.description}}</div>
+        </div>
+      </div>
     </div>
 
 
 </template>
 
 <script>
+require('../assets/dyc_logo.png')
 export default {
   name: 'Projects',
   data() {
     return {
       project: '',
       projects: [
-        {"name" : "Did backend"},
-        {"name" : "Vue.js"}
+        {"logo" : require('../assets/dyc_logo.png'), "title" : "DYC", "link" : "https://github.com/Zarad1993/dyc", "description" : "Contributor to DYC, which is a code documenting tool that will help improve the readability of your code"},
       ]
     }
   },
@@ -112,25 +110,48 @@ i {
   cursor:pointer;
 }
 
-.card {
-  border: 1px solid #dbdbd9;
-  border-radius: 4px;
-  padding: 30px;
-  margin-top: 2rem;
-  margin: auto;
-  text-align: center;
-  width: 50%;
-  display: none;
+
+.project {
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e3e2de;
+}
+.project::after {
+  display: block;
+  content: "";
+  width: .5rem;
+  height: .5rem;
+  border: #b4b6b8 .1rem solid;
+  position: relative;
+  top: 0.73rem;
+  left: 50%;
+  margin-left: -.25rem;
+  background: #fff;
+  border-radius: 100%;
+  box-shadow: #fff 0 0 0 5px;
+}
+.project-logo {
+  float: left;
 }
 
-.card-action {
-  text-align: left;
-  border-top: 1px solid rgba(160,160,160,0.2);
-  margin-top: 20px;
-  display: none;
+.project h3 {
+  margin: 0 0 10px 0;
 }
-.card-action a, i{
-  float: none;
-  margin-top: 15px;
+
+.project-link {
+  font-size: .9rem;
+  
+}
+.project-link a{
+   color: #007199;
+}
+.project-description{
+  margin-top: 10px;
+}
+
+
+.project img {
+  width: 180px;
+  height: 180px;
 }
 </style>
