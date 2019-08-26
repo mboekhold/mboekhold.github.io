@@ -2,7 +2,7 @@
   <div class="main clearfix">
       <div class="header">
           <h1>Resume</h1>
-          <a :href="`${publicPath}mboekhold_resume.pdf`" target="_blank" download><font-awesome-icon class="dl-icon" icon="file-download"/> </a>
+          <a :href="`${publicPath}mboekhold_resume.pdf`" target="_blank" download>Download my resume here </a>
       </div>
       <div class="main-content">
       <ul class="job-items">
@@ -57,6 +57,12 @@ export default {
 
 .header h1 {
   display: inline-block;
+}
+.header a {
+  display: block;
+  font-size: .8rem;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .main-content ul li h4 {
